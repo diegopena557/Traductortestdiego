@@ -22,7 +22,6 @@ st.subheader("Escucho lo que quieres traducir.")
 image = Image.open('traductor.jpg')
 
 st.image(image,width=500)
-st.image(image, height=300)
 with st.sidebar:
     st.subheader("Traductor.")
     st.write("Presiona el botón, cuando escuches la señal "
